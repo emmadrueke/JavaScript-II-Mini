@@ -4,7 +4,7 @@
 // convert the Animal constructor function from 'constructors.js' into an ES6 class
 class Animal {
     constructor(options) {
-        this.name = this.options;
+        this.name = options.name;
     }
     grow(name) {
         console.log(`${this.name} grew larger!`);
